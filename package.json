@@ -1,0 +1,17 @@
+{
+  "name": "wikijs-node-json-fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js",
+    "debug": "npm --node-options=--inspect run dev",
+    "deploy": "git add . && git commit -m Build && git push"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wikijs": "^6.3.3"
+  }
+}
